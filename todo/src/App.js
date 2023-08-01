@@ -1,5 +1,6 @@
 import './Components/Input';
 import Input from './Components/Input';
+import Tasklist from './Components/Tasklist';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           <h1>My list</h1>
           <h2>Click an item to check it off</h2>
           <Input />
+          <Tasklist />
         </>
       </header>
     </div>

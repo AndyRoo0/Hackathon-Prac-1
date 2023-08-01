@@ -1,6 +1,10 @@
 import React from 'react';
 
 function Input() {
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
     <form>
       <label>
